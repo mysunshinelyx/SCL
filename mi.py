@@ -18,7 +18,7 @@ class Discriminator(nn.Module):
         self.l1 = nn.Linear(mid_dim, out_dim)
 
         self.l2 = nn.Linear(out_dim+feature_dim, out_dim)  # 512+512, 512
-        self.l2 = nn.Linear(512+512, out_dim)
+        # self.l2 = nn.Linear(512+512, out_dim)
         self.l3 = nn.Linear(out_dim, out_dim)  # 512, 512
         self.l4 = nn.Linear(out_dim, 1)  # 512, 1
 
