@@ -5,5 +5,5 @@ The features of the wikipedia and nus-wide-10k datasets were provided by https:/
 # Usage
 ## Unsupervised Setting
 python main.py --datasets wikipedia --lr 0.0001 --alpha 100 --beta 0.01 --gamma 1
-## Semi-supervised setting
+## Semi-supervised Setting
 python main.py --datasets wikipedia --semi_set 1 --sup_rate 0.1 --lr 0.01 --alpha 10 --beta 1 --gamma 1 --delta 10 --theta 1
